@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main() 
+{
+int t;
+scanf("%d",&t);
+while(t--)
+{
+    int n,k;
+    scanf("%d%d",&n,&k);
+    k=pow(2,k);
+    n=n|k;
+    printf("%d\n",n);
+}
+return 0;
+}
